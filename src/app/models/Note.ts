@@ -4,6 +4,6 @@ export interface Note{
     Title: string;
     Content: string;
     IsStarred?: boolean;
-    CreatedUtc: Date;
-    ModifiedUtc: Date;
+    CreatedUtc?: Date;
+    ModifiedUtc?: Date;
 }
